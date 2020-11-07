@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 2em;
+    color: #e67b81;
+}
+h4{
+    color: #e67b81;
+}
+header{
+    background-color: #4a4f55;
+}
+header > h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+header > h4{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+.main{
+    height: 100vh;
+}

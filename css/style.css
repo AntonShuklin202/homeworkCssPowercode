@@ -92,3 +92,6 @@ h5 > span{
 .footer .btn:active{
     background-color: #3c3e44;
 }
+.footer .btn:after{
+    content: " :)";
+}

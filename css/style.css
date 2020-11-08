@@ -20,7 +20,7 @@ h5{
 }
 header{
     background-color: #4a4f55;
-    height: 15vh;
+    height: 105px;
 }
 header > h1{
     text-align: center;
@@ -35,7 +35,7 @@ header > h4{
 .main > section{
     margin-top: 50px;
     background-color: #3c3e44;
-    height: 78vh;
+    height: auto;
     color: whitesmoke;
 }
 .list{
@@ -50,10 +50,15 @@ header > h4{
     width: 100%;
     background-color: #89849f;
     height: 50px;
+    min-height: 50px;
     padding: 15px;
 }
 .list-item:nth-child(2n){
     background-color: #797594;
+}
+.list-item:hover{
+    background-color: #635e78;
+    border: 2px solid whitesmoke;
 }
 input[type="checkbox"]{
     width: 17px;
@@ -68,17 +73,22 @@ h5 > span{
     font-size: 14px;
     opacity: 0.4;
 }
-.btn{
-    width: 1150px;
-    max-width: 100%;
-    font-size: 1.4em;
-    margin: 0 auto;
-    padding: 15px 10px;
-    background-color: #4a4f55;
+.footer{
+    width: 100%;
+
+}
+.footer .btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
     color: #e67b81;
+    font-size: 1.1em;
+    background-color: #4a4f55;
+    width: 1150px;
+    height: 50px;
     outline: none;
     border: none;
 }
-.btn:active{
+.footer .btn:active{
     background-color: #3c3e44;
 }
